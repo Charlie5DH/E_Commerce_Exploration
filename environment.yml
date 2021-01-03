@@ -1,0 +1,10 @@
+name: E_Commerce
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - cudatoolkit
+  - cudnn
+  - pip
+  - pip:
+    - pip-tools
